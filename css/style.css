@@ -2755,7 +2755,7 @@
 	.footer{
 		padding:45px;
 		text-align: center;
-		background: #191919;
+		background: #ef648e;
 	}
 
 	.footer h2.company-name{
@@ -2767,7 +2767,7 @@
 	.footer p.copyright{
 		margin-bottom:0;
 		padding-bottom:0;
-		color:#8b8b8b;
+		color:#000;
 		font-size:14px;
 	}
 
