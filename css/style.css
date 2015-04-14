@@ -39,6 +39,7 @@
 	    user-select: none; 
 	    -webkit-user-drag: none;
 	    user-drag: none;
+		max-width: 100%;
 	}
 
 	a,
@@ -112,6 +113,9 @@
 		visibility:visible;
 	}
 
+	.brown{
+		background:#b3a99f;
+		}
 /* Background Animation */
 
 	@-webkit-keyframes BackgroundAnimation {
@@ -1060,12 +1064,17 @@
 		font-size:13px;
 	}
 
+.gris{
+	
+	background: url(../images/pimage1.png) no-repeat center center fixed #ebeae8;
+	min-height:500px;
+	}
 
 /* Services */
 
 	#services{
-		background:url(../images/i1.jpg) center center fixed;
-		padding:55px 0;
+		background:#b3a99f;
+		padding:0;
 		overflow: hidden;
 	}
 
@@ -1197,13 +1206,22 @@
 
 
 /* Testimonials */	
-
+    .getinvolved{
+	 padding: 10px 0 70px;
+  	 text-align: center;
+  	 overflow: hidden;
+  	 position: relative;
+  	}
 	.testimonials{
-		background: url(../images/i2.jpg) center center fixed;
+		
 		padding: 140px 0 70px;
 		text-align: center;
 		overflow: hidden;
 		position: relative;
+	}
+	.parallax3{
+		background: url(../images/pimage2.png) no-repeat center center fixed #EE2375;
+	min-height:500px;
 	}
 
 	.t-slides{

@@ -130,6 +130,8 @@ Home Super Slider (images)
 
  $('#slides').superslides({
       animation: 'fade',
+	  pagination:true,
+	  slide_speed: 1200
     });
 
  /* ==============================================
