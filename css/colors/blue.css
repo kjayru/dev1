@@ -16,7 +16,7 @@
 	.why-oxygen-accordion .accordion-toggle:hover,
 	.dark-nav .nav-menu li a:hover,
 	ul.nav ul.dropdown-menu li a:hover{
-		color: #3498db ;
+		color: #f45e90 ;
 	}
 
 /* Background Colors */
@@ -42,7 +42,7 @@
 	.nav-menu li a:hover,
 	.nav-menu li a:focus,
 	.form-btn:hover{
-		border-color:#3498db ;
+		border-color:#fff ;
 	}
 
 /* Border Right Colors */
