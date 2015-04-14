@@ -1,13 +1,19 @@
 /* Fonts */
+	
 	/* Open Sans */
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700,800);
+
 	/* Open Sans Condensed */
 	@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
 	/* Condiment */
 	@import url(http://fonts.googleapis.com/css?family=Condiment);
+
 	/* Playball */
 	@import url(http://fonts.googleapis.com/css?family=Playball);
+
 /* Main Styles */
+
 	::selection {
 		background-color: #ececec;
 	}
@@ -225,7 +231,7 @@
 	}
 
 	.pattern-black:after{
-		background: url(../images/pattern-black.png) repeat;
+		background:url(../images/bgmenu.png) repeat-x 0 0;
 		content:'';
 		width: 100%;
 		height: 100%;
@@ -664,25 +670,31 @@
 
 	#slides .slides-container .image1{
 		background-image:url(../images/slide1.jpg);
+		background-size:cover;
 	}
 
 	#slides .slides-container .image2{
 		background-image:url(../images/slide2.jpg);
+		background-size:cover;
 	}
 	#slides .slides-container .image3{
 		background-image:url(../images/slide3.jpg);
+		background-size:cover;
 	}
 
 /* Alternative Images  */
 
 	#slides .slides-container .image4{
 		background-image:url(../images/slide4.jpg);
+		background-size:cover;
 	}
 	#slides .slides-container .image5{
 		background-image:url(../images/slide5.jpg);
+	background-size:cover;
 	}
 	#slides .slides-container .image6{
 		background-image:url(../images/slide6.jpg);
+	background-size:cover;
 	}
 
 	.v2 .home-arrow{
@@ -754,15 +766,14 @@
 /* Navigation */
 	
 	#navigation{
-		position: fixed;
+		position: absolute;
 		width: 100%;
-		height: 232px;
-		
+		height: 141px;
+		/*box-shadow: 0px 1px 4px rgba(0,0,0, 0.1);*/
 		z-index: 1031;
 		-webkit-transition: all 0.5s;
 		-moz-transition: all 0.5s;
 		transition: all 0.5s;
-		background:url(../images/bgmenu.png) repeat-x 0px 0px;
 	}
 
 	.not-visible-nav{
@@ -778,7 +789,8 @@
 	}
 
 	.dark-nav{
-		background:rgba(0, 0, 0, 0.97) !important;
+		/*background:rgba(0, 0, 0, 0.97);*/
+		
 	}
 
 	.soft-nav{
@@ -801,10 +813,10 @@
 	.site-logo{
 		float: left;
 		position: relative;
-		top: 45%;
-		-webkit-transform: translateY(-80%);
-		-moz-transform: translateY(-80%);
-		transform: translateY(-80%);
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		transform: translateY(-50%);
 	}
 
 	.site-logo a.logo{
@@ -813,7 +825,7 @@
 
 	.site-logo a.logo img{
 		height: auto;
-		max-height: 144px;
+		max-height: 141px;
 		-webkit-transition: all 1s;
 		-moz-transition: all 1s;
 		transition: all 1s;
@@ -848,20 +860,23 @@
 	.nav li{
 		display: inline-block;
 		height: 100%;
+		padding-top: 22px;
 	}
 
-	.nav li a{
-		display: block;
-		height: 100%;
-		border-top:2px solid transparent;
-		line-height: 54px;
-		color: #fff;
-		font-size:15px;
-		padding:10px 15px;
-		-webkit-transition: all 0.3s;
-		-moz-transition: all 0.3s;
-		transition: all 0.3s;
-	}
+ .nav li a{
+  display: block;
+  height: 100%;
+  border-top: 2px solid transparent;
+  line-height: 20px;
+  color: #555555;
+  font-size: 18px;
+  padding: 10px 15px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  float: left;
+ }
 
 /* Nav Menu Rollovers */
 
@@ -871,20 +886,18 @@
 
 	.nav li a:hover{
 		background: transparent !important;
-		border-top:2px solid #f45e90;
-		color:#f45e90;
+		border-top:2px solid #3498db;
+		color:#3498db;
 	}
 
 	.nav li.active a{
 		background: transparent;
-		border-top:2px solid #f45e90;
-		color:#f45e90;
+		border-top:2px solid #3498db;
+		color:#3498db;
 	}
 
 	.nav li a:focus{
 		background: transparent !important;
-		border-top:2px solid #f45e90;
-		color:#f45e90;
 	}
 
 	.dark-nav .nav li a{
@@ -2756,7 +2769,7 @@
 	.footer{
 		padding:45px;
 		text-align: center;
-		background: #ef648e;
+		background: #191919;
 	}
 
 	.footer h2.company-name{
@@ -2768,7 +2781,7 @@
 	.footer p.copyright{
 		margin-bottom:0;
 		padding-bottom:0;
-		color:#000;
+		color:#8b8b8b;
 		font-size:14px;
 	}
 
@@ -3082,3 +3095,5 @@
 		color:white;
 		border:1px solid #404040;
 	}
+
+

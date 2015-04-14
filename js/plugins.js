@@ -171,7 +171,7 @@ $('[data-toggle="tooltip"]').tooltip();
 Navigation Scroll Effect
 =============================================== */
 
-
+/*
 $(document).ready(function () {
 	'use strict';
 
@@ -190,7 +190,7 @@ $(document).ready(function () {
     });
 
 });
-
+*/
 
  /* ==============================================
 Flex Slider Testimonials
