@@ -116,7 +116,14 @@
 	.brown{
 		background:#b3a99f;
 		}
-/* Background Animation */
+	.relation{
+		padding:0 !important;
+		min-height:406px;
+		}
+	.paddingcero{
+		padding:0 !important;
+		}
+	/* Background Animation */
 
 	@-webkit-keyframes BackgroundAnimation {
 	    from {background-position: 0px 0px;}
@@ -2787,7 +2794,7 @@
 	.footer{
 		padding:45px;
 		text-align: center;
-		background: #191919;
+		background: #ef638f;
 	}
 
 	.footer h2.company-name{
